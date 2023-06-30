@@ -25,13 +25,23 @@ export default function Navbar(props) {
           <ul className="navbar-nav me-auto mb-2 mb-lg-0">
             <li className="nav-item">
               <Link className="nav-link active" aria-current="page" to="/">
-                Registration Form
+               Employee Registration Form
               </Link>
             </li>
 
             <li className="nav-item">
               <Link className="nav-link DataTable" to="/DataTable">
                 DataTable
+              </Link>
+            </li>
+            <li className="nav-item">
+              <Link className="nav-link " to="/addEmployee">
+               Add Employee
+              </Link>
+            </li>
+            <li className="nav-item">
+              <Link className="nav-link " to="/viewEmployee">
+               View Employee
               </Link>
             </li>
           </ul>
